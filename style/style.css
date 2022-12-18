@@ -1,0 +1,137 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    padding-left: 2px;
+    padding-bottom: -1px;
+    margin-bottom: 2px;
+    font-family: 'Alkalami', serif;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+
+ul.posts{ 
+    margin: 20px auto 40px; 
+    font-size: 1.3em;
+}
+
+ul.posts li{
+    list-style: none;
+}
+
+#menu{
+    margin-top: 10px;
+    margin-right: 80%;
+    position: fixed;
+    background-color: #fff;
+}
+
+#contact{
+    padding-right: 3px;
+}
+
+nav ul, footer ul {
+    font-family: 'Alkalami', serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+#top{
+    font-family: 'Alkalami', serif;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 50px;
+    margin-left: 23%;
+    color: black;
+}
+
+title, h1, p, h2, h3{
+    text-align: center;
+    font-family: 'Alkalami', serif;
+}
+
+#photo{
+  font-family: 'Alkalami', serif;
+}
+
+.zoom {
+  padding: 10px;
+  transition: transform .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
+.img1, .img2, .img3, .img4{
+  width: 350px;
+  heigh: 350px;
+}
+
+.img1, .img3{
+    margin-left: 19%;
+}
+
+.seeMore{ 
+  width: 100px;
+  heigh: 100px;
+  padding-top: ;
+  margin-top: ;
+  margin-left: 45%;
+}
+
+#sns{
+    font-family: 'Alkalami', serif;
+    text-align: center;
+    margin-left: 45%;
+    font-size: 20px;
+    color: black;
+}
+
+h3{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#yt{
+    margin-left: 40%;
+}
+
+#github, #insta{
+    margin-left: 30px;
+}
+
+.email{
+  font-size: 1em;
+  display: inline-block;
+  color: #000;
+  text-align: center;
+  margin-left: 38%;
+  margin-top: 20px;
+}
+
+#emailAddress{
+    font-family: 'Alkalami', serif;
+    margin-top: 7px;
+    margin-left: 25px;
+}
