@@ -116,7 +116,7 @@ h3{
   top: 110%;
 }
 
-.hovertext:hover:before {
+.hovertext:hover:after {
   opacity: 1;
   visibility: visible;
 }
