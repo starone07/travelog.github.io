@@ -85,7 +85,7 @@ h3{
 
 .icons{
     width: 100px;
-    margin-left: 40px;
+    margin-left: px;
 }
 
 .flight{
@@ -96,6 +96,8 @@ h3{
 .hovertext {
   position: relative;
   border-bottom: 1px dotted black;
+  text-decoration: none;
+  font-family: 'Alkalami', serif;
 }
 
 .hovertext:before {
@@ -117,6 +119,5 @@ h3{
 }
 
 .hovertext:hover:after {
-  opacity: 1;
   visibility: visible;
 }
