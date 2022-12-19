@@ -14,7 +14,7 @@
   </head>
   <body>
    <header>
-      <div class="header" id="myHeader">
+      <div class="header" id="Header">
         <h1>旅遊百科書</h1>
       </div>
       <nav id="menu">
@@ -29,7 +29,20 @@
        </ul>
       </nav>
     </header>
-    
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("Header");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>
     <section>
       <div>
         <span class="hovertext slogan" data-hover="Get cheap tickets to Seoul"><img class="icons zoom flight" src="images/flight.jpg" href="https://www.skyscanner.com.tw/flights-to/sela/cheap-flights-to-seoul.html" alt="photo"/>
