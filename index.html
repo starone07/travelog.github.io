@@ -13,22 +13,28 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
   <body>
-   <header>
-      <div class="header" id="Header">
-        <h1>旅遊百科書</h1>
-      </div>
-      <nav id="menu">
-       <ul>
-         <button></button>
-         <br>
-         <li><a href="#top" id="home">Home</a></li>
-         <br>
-         <li><a href="about" id="about">About</a></li>
-         <br>
-         <li><a href="#contact" id="contact">Contact</a></li>
-       </ul>
-      </nav>
-    </header>
+    <div class="container"> 
+      <header id="js-rotate" class="main-header">
+        <div class="main-header__content">
+          <div class="main-header__perspective">
+            <div class="header" id="Header js-rotate">
+              <h1 id="logo">旅遊百科書</h1>
+            </div>
+            <div class="main-header__bottom">
+              <nav class="main-header__menu">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <button class="menu-button" id="js-menu-button">
+          <div class="menu-button__hb" id="js-hamburger"><span></span></div> 
+        </button>
+      </header>
+    </div>
+    
     <script>
         window.onscroll = function() {myFunction()};
 
