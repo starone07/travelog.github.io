@@ -3,15 +3,6 @@ a{
     color: black;
 }
 
-button{
-    padding-left: 2px;
-    padding-bottom: -1px;
-    margin-bottom: 2px;
-    font-family: 'Alkalami', serif;
-    background-color: black;
-    color: white;
-}
-
 h1{
     font-size: 3em;
 }
@@ -81,31 +72,6 @@ title, h1, p, h2, h3{
   transform: scale(1.1); 
 }
 
-.img1, .img2, .img3, .img4{
-  width: 350px;
-  heigh: 350px;
-}
-
-.img1, .img3{
-    margin-left: 19%;
-}
-
-.seeMore{ 
-  width: 100px;
-  heigh: 100px;
-  padding-top: ;
-  margin-top: ;
-  margin-left: 45%;
-}
-
-#sns{
-    font-family: 'Alkalami', serif;
-    text-align: center;
-    margin-left: 45%;
-    font-size: 20px;
-    color: black;
-}
-
 h3{
     margin-top: 10px;
     padding-top: 10px;
@@ -113,25 +79,8 @@ h3{
     margin-bottom: 0;
 }
 
-#yt{
-    margin-left: 40%;
-}
-
-#github, #insta{
-    margin-left: 30px;
-}
-
-.email{
-  font-size: 1em;
-  display: inline-block;
-  color: #000;
-  text-align: center;
-  margin-left: 38%;
-  margin-top: 20px;
-}
-
-#emailAddress{
-    font-family: 'Alkalami', serif;
-    margin-top: 7px;
-    margin-left: 25px;
+.slogan{
+    text-align: center;
+    font-sixe: 20px;
+    display: inline;
 }
