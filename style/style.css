@@ -1,3 +1,19 @@
+.header {
+  padding: 10px 16px;
+  background: #004D99;
+  color: #fff;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -96,7 +112,6 @@ h3{
 .hovertext {
   position: relative;
   border-bottom: 1px dotted black;
-  text-decoration: none;
   font-family: 'Alkalami', serif;
 }
 
