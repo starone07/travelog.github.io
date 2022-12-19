@@ -119,5 +119,6 @@ h3{
 }
 
 .hovertext:hover:after {
+  opacity: 1;
   visibility: visible;
 }
