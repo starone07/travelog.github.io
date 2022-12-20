@@ -101,28 +101,28 @@ h3{
   display: none;
 }
     
-.hovertextF:hover + .hide {
+.hovertextF:hover + .hideF {
   display: block;
   color: #2D1CE6;
   font-family: 'Alkalami', serif;
   font-size: 15px;
 }
 
-.hovertextH:hover + .hide {
+.hovertextH:hover + .hideH {
   display: block;
   color: #2D1CE6;
   font-family: 'Alkalami', serif;
   font-size: 15px;
 }
 
-.hovertextR:hover + .hide + {
+.hovertextR:hover + .hideR {
   display: block;
   color: #2D1CE6;
   font-family: 'Alkalami', serif;
   font-size: 15px;
 }
 
-.hovertextT:hover + .hide {
+.hovertextT:hover + .hideT {
   display: block;
   color: #2D1CE6;
   font-family: 'Alkalami', serif;
