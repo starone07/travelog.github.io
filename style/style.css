@@ -42,7 +42,7 @@ h3{
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 300px;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -69,8 +69,9 @@ h3{
 
 .text {
   color: black;
-  font-size: 16px;
+  font-size: 25px;
   padding: 16px 32px;
+  font-family: 'Alkalami', serif;
 }
 
 .slogan{
