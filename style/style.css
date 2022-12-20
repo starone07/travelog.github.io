@@ -42,7 +42,7 @@ h3{
 .image {
   opacity: 1;
   display: block;
-  width: 300px;
+  width: 230px;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -90,34 +90,41 @@ h3{
     width: 110px;
 }
 
-.hideF, .hideH, .hideR, .hideT{
-  display: none;
+.zoom {
+  padding: 10px;
+  transition: transform .2s;
 }
-    
-.hovertextF:hover + .hideF {
-  display: block;
-  color: #2D1CE6;
-  font-family: 'Alkalami', serif;
-  font-size: 15px;
+.zoom:hover {
+  transform: scale(1.1); 
 }
 
-.hovertextH:hover + .hideH {
-  display: block;
-  color: #2D1CE6;
-  font-family: 'Alkalami', serif;
-  font-size: 15px;
+.content_img{
+    position: relative;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
 }
 
-.hovertextR:hover + .hideR {
-  display: block;
-  color: #2D1CE6;
-  font-family: 'Alkalami', serif;
-  font-size: 15px;
+.content_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: white;
+    color: black;
+    font-family: 'Alkalami', serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
-.hovertextT:hover + .hideT {
-  display: block;
-  color: #2D1CE6;
-  font-family: 'Alkalami', serif;
-  font-size: 15px;
+.content_img:hover{
+    cursor: pointer;
+}
+
+.content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
 }
