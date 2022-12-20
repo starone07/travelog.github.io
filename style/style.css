@@ -107,14 +107,32 @@ h3{
   display: none;
 }
 
-.containerF + hideF{
+.containerF + .hideF{
   display: block;
   background: white;
   color: black;
   font-size: 15px;
   font-family: 'Alkalami', serif;
 }
-.containerR
-.containerT
-.containerH{
+.containerR + .hideR{
+  display: block;
+  background: white;
+  color: black;
+  font-size: 15px;
+  font-family: 'Alkalami', serif;
+}
+.containerT + .hideT{
+  display: block;
+  background: white;
+  color: black;
+  font-size: 15px;
+  font-family: 'Alkalami', serif;
+}
+.containerH + .hideH{
+  display: block;
+  background: white;
+  color: black;
+  font-size: 15px;
+  font-family: 'Alkalami', serif;
+}
   
