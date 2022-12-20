@@ -104,10 +104,10 @@ h3{
 
 
 .figure {
+    margin-top: 10;
     position: relative;
     width: 110px;
     display: inline-block;
-    margin-left: 20%;
   }
   .figure img.image-hover {
     position: relative;
