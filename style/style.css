@@ -105,30 +105,20 @@ h3{
   margin-left: ;
 }
 
-.slogan{
-    text-align: center;
-    font-sixe: 20px;
-    display: inline;
-}
-
-.flight{
-    margin-left: 15%;
-    width: 110px;
-}
 
 .figure {
     position: relative;
     width: 110px;
     max-width: 100%;
     display: inline-block;
-    margin-right: 30%;
+    margin-left: 20%;
   }
   .figure img.image-hover {
-    position: absolute;
+    position: relative;
     width: 200px;
     top: -5px;
     right: 0;
-    left: 5px;
+    left: 10px;
     bottom: 0;
     object-fit: contain;
     opacity: 0;
@@ -138,10 +128,6 @@ h3{
     opacity: 1;
   }
   
-.icons{
-    width: 100px;
-    margin-left: 10%;
-}
 
 footer{
   background: #004D99;
