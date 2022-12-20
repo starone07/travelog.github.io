@@ -1,5 +1,4 @@
 .header { 
-  margin-top: ;
   position: fixed;
   padding: 10 10 10 10 ;
   background: #004D99;
@@ -104,3 +103,18 @@ h3{
   transform: scale(1.1); 
 }
 
+.hideF, .hideR, .hideT, .hideH{
+  display: none;
+}
+
+.containerF + hideF{
+  display: block;
+  background: white;
+  color: black;
+  font-size: 15px;
+  font-family: 'Alkalami', serif;
+}
+.containerR
+.containerT
+.containerH{
+  
