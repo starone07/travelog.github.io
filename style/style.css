@@ -7,7 +7,8 @@
 }
 
 .log{
-  width: 70px;
+  position: fixed;
+  width: 100px;
   top: -20px;
 }
 
@@ -89,19 +90,19 @@ h3{
 
 .line1{
   display: inline-block;
-  width: 370px;
+  width: 400px;
 }
 
 .line2{
   display: inline-block;
-  width: 370px;
+  width: 400px;
 }
 .left{
-  margin-left: 20%;
+  margin-left: 17%;
   margin-right;
 }
 .right{
-  margin-right: 20%;
+  margin-right: 17%;
   margin-left: ;
 }
 
