@@ -108,6 +108,7 @@ h3{
 
 .containerF + .hideF{
   display: block;
+  visibility: visible;
   background: white;
   color: black;
   font-size: 15px;
@@ -116,6 +117,7 @@ h3{
 
 .containerR + .hideR{
   display: block;
+  visibility: visible;
   background: white;
   color: black;
   font-size: 15px;
@@ -124,6 +126,7 @@ h3{
 
 .containerT + .hideT{
   display: block;
+  visibility: visible;
   background: white;
   color: black;
   font-size: 15px;
@@ -132,6 +135,7 @@ h3{
 
 .containerH + .hideH{
   display: block;
+  visibility: visible;
   background: white;
   color: black;
   font-size: 15px;
