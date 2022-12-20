@@ -113,14 +113,6 @@ h3{
     width: 110px;
 }
 
-.zoom {
-  padding: 10px;
-  transition: transform .2s;
-}
-.zoom:hover {
-  transform: scale(1.1); 
-}
-
 .figure {
     position: relative;
     width: 100px;
@@ -128,7 +120,7 @@ h3{
   }
   .figure img.image-hover {
     position: absolute;
-    width: 100px;
+    width: 130px;
     top: 0;
     right: 0;
     left: 0;
@@ -140,3 +132,6 @@ h3{
   .figure:hover img.image-hover {
     opacity: 1;
   }
+  .figure:hover img.image-main{
+      display: none;
+    }
