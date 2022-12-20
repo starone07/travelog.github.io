@@ -110,11 +110,6 @@ h3{
     display: inline;
 }
 
-.icons{
-    width: 100px;
-    margin-right: 40px;
-}
-
 .flight{
     margin-left: 15%;
     width: 110px;
@@ -142,6 +137,10 @@ h3{
     opacity: 1;
   }
   
+.icons{
+    width: 100px;
+    margin-right: 40px;
+}
 
 footer{
   background: #004D99;
