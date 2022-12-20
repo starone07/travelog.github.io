@@ -115,7 +115,7 @@ h3{
     
 .hovertext:hover + .hide {
   display: block;
-  color: black;
+  color: #2D1CE6;
   font-family: 'Alkalami', serif;
   font-size: 15px;
 }
