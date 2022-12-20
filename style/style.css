@@ -112,9 +112,9 @@ h3{
   .figure img.image-hover {
     position: relative;
     width: 200px;
-    top: 0;
-    right: 10px;
-    left: 15px;
+    top: -20px;
+    right: 0x;
+    left: -10px;
     bottom: 0;
     object-fit: contain;
     opacity: 0;
