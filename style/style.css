@@ -47,7 +47,7 @@ h3{
 .image {
   opacity: 1;
   display: block;
-  width: 200px;
+  width: 100px;
   hieght: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -106,7 +106,7 @@ h3{
 
 .figure {
     position: relative;
-    width: 100px;
+    width: 50px;
     max-width: 100%;
   }
   .figure img.image-hover {
