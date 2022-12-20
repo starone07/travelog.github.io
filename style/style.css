@@ -1,12 +1,12 @@
 .header { 
   position: fixed;
   background: #004D99;
-  margin-top: -5;
+  margin-top: -10;
   padding-right: 100;
 }
 
 .log{
-  width: 0px;
+  width: 70px;
 }
 
 a{
