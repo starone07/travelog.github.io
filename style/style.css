@@ -1,6 +1,6 @@
 .header { 
   position: fixed;
-  padding: 100;
+  padding: 100%;
   background: #004D99;
   margin-top: ;
 }
@@ -103,44 +103,21 @@ h3{
 .zoom:hover {
   transform: scale(1.1); 
 }
-
-.hideF, .hideR, .hideT, .hideH{
-  display: none;
-}
-
-.containerF:hover + .hideF{
-  display: block;
-  visibility: visible;
-  background: white;
-  color: black;
-  font-size: 15px;
-  font-family: 'Alkalami', serif;
-}
-
-.containerR:hover + .hideR{
-  display: block;
-  visibility: visible;
-  background: white;
-  color: black;
-  font-size: 15px;
-  font-family: 'Alkalami', serif;
-}
-
-.containerT:hover + .hideT{
-  display: block;
-  visibility: visible;
-  background: white;
-  color: black;
-  font-size: 15px;
-  font-family: 'Alkalami', serif;
-}
-
-.containerH:hover + .hideH{
-  display: block;
-  visibility: visible;
-  background: white;
-  color: black;
-  font-size: 15px;
-  font-family: 'Alkalami', serif;
-}
-  
+.figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+  }
+  .figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.image-hover {
+    opacity: 1;
+  }
