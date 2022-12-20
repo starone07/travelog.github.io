@@ -1,6 +1,5 @@
 .header { 
   padding: 10 10 10 10 ;
-  position: fixed;
   background: #004D99;
   color: #fff;
 }
@@ -13,6 +12,7 @@ a{
 
 h1{
     font-size: 3em;
+    padding-left: ;
 }
 
 p{
