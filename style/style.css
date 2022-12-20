@@ -1,5 +1,5 @@
 .header {
-  padding: 10px 10px;
+  padding-bottom: 20px;
   background: #004D99;
   color: #fff;
 }
@@ -113,7 +113,28 @@ h3{
   display: none;
 }
     
-.hovertext:hover + .hide {
+.hovertextF:hover + .hide + .flight{
+  display: block;
+  color: #2D1CE6;
+  font-family: 'Alkalami', serif;
+  font-size: 15px;
+}
+
+.hovertextH:hover + .hide + .hotel{
+  display: block;
+  color: #2D1CE6;
+  font-family: 'Alkalami', serif;
+  font-size: 15px;
+}
+
+.hovertextR:hover + .hide + .restaurant{
+  display: block;
+  color: #2D1CE6;
+  font-family: 'Alkalami', serif;
+  font-size: 15px;
+}
+
+.hovertextT:hover + .hide + .tour{
   display: block;
   color: #2D1CE6;
   font-family: 'Alkalami', serif;
