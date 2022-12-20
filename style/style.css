@@ -128,7 +128,7 @@ h3{
   }
   .figure img.image-hover {
     position: absolute;
-    width: 150px;
+    width: 200px;
     top: 0;
     right: 0;
     left: 0;
@@ -140,9 +140,7 @@ h3{
   .figure:hover img.image-hover {
     opacity: 1;
   }
-  .figure:hover img.image-main{
-      display: none;
-    }
+  
 
 footer{
   background: #004D99;
