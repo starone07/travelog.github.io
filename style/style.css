@@ -40,7 +40,7 @@ h3{
 
 .container {
   position: relative;
-  width: 50%;
+  width: 100px;
 }
 
 .image {
@@ -105,7 +105,7 @@ h3{
 
 .figure {
     position: relative;
-    width: 50px;
+    width: px;
     max-width: 100%;
   }
   .figure img.image-hover {
