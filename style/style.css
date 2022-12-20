@@ -109,32 +109,32 @@ h3{
     width: 110px;
 }
 
-.hide {
+.hideF, .hideH, .hideR, .hideT{
   display: none;
 }
     
-.hovertextF:hover + .hide + .flight{
+.hovertextF:hover + .hide {
   display: block;
   color: #2D1CE6;
   font-family: 'Alkalami', serif;
   font-size: 15px;
 }
 
-.hovertextH:hover + .hide + .hotel{
+.hovertextH:hover + .hide {
   display: block;
   color: #2D1CE6;
   font-family: 'Alkalami', serif;
   font-size: 15px;
 }
 
-.hovertextR:hover + .hide + .restaurant{
+.hovertextR:hover + .hide + {
   display: block;
   color: #2D1CE6;
   font-family: 'Alkalami', serif;
   font-size: 15px;
 }
 
-.hovertextT:hover + .hide + .tour{
+.hovertextT:hover + .hide {
   display: block;
   color: #2D1CE6;
   font-family: 'Alkalami', serif;
