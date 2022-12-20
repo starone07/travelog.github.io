@@ -30,7 +30,12 @@ title, h1, p, h2, h3{
     font-family: 'Alkalami', serif;
 }
 
-
+#title{
+  margin-top: 20%;
+  font-family: 'Alkalami', serif;
+  padding-left: 5px;
+}
+  
 h3{
     margin-top: 10px;
     padding-top: 10px;
