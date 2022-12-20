@@ -104,7 +104,6 @@ h3{
 .figure {
     position: relative;
     width: 110px;
-    max-width: 100%;
     display: inline-block;
     margin-left: 20%;
   }
@@ -123,7 +122,8 @@ h3{
     opacity: 1;
   }
   
-
-footer{
-  background: #004D99;
+.icons{
+  width: 110px;
+  display: inline-block;
+  margin-left: 20%;
 }
