@@ -38,6 +38,11 @@ h3{
     margin-bottom: 0;
 }
 
+.line1{
+  display: inline;
+  margin-left: 20%;
+}
+
 .container {
   position: relative;
   width: 50%;
@@ -46,7 +51,7 @@ h3{
 .image {
   opacity: 1;
   display: block;
-  width: 230px;
+  width: 200px;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
