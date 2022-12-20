@@ -119,6 +119,7 @@ h3{
     position: relative;
     width: 100px;
     max-width: 100%;
+    display: inline-block;
   }
   .figure img.image-hover {
     position: absolute;
