@@ -1,18 +1,8 @@
-.header {
-  margin-top: ;
-  padding-top: 10px;
+.header { 
+  padding: 10 10 10 10 ;
   position: fixed;
   background: #004D99;
   color: #fff;
-}
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
 }
 
 
