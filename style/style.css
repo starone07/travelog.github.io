@@ -6,6 +6,10 @@
   color: #fff;
 }
 
+.log{
+  padding-left: 5px;
+  width: 60px;
+}
 
 a{
     text-decoration: none;
