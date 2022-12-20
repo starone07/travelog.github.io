@@ -52,7 +52,7 @@ h3{
   opacity: 1;
   display: block;
   width: 200px;
-  height: auto;
+  height: 200px;
   transition: .5s ease;
   backface-visibility: hidden;
 }
