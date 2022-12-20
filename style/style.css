@@ -112,7 +112,7 @@ h3{
   display: none;
 }
 
-.containerF + .hideF{
+.containerF:hover + .hideF{
   display: block;
   visibility: visible;
   background: white;
@@ -121,7 +121,7 @@ h3{
   font-family: 'Alkalami', serif;
 }
 
-.containerR + .hideR{
+.containerR:hover + .hideR{
   display: block;
   visibility: visible;
   background: white;
@@ -130,7 +130,7 @@ h3{
   font-family: 'Alkalami', serif;
 }
 
-.containerT + .hideT{
+.containerT:hover + .hideT{
   display: block;
   visibility: visible;
   background: white;
@@ -139,7 +139,7 @@ h3{
   font-family: 'Alkalami', serif;
 }
 
-.containerH + .hideH{
+.containerH:hover + .hideH{
   display: block;
   visibility: visible;
   background: white;
