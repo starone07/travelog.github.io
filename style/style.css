@@ -1,8 +1,8 @@
 .header { 
-  position: fixed;
+  position: absolute;
   padding: 10 10 10 5 ;
   background: #004D99;
-  margin-top: 
+  margin-top: ;
 }
 
 .log{
