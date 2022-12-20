@@ -88,19 +88,20 @@ h3{
 
 .line1{
   display: inline-block;
-  width: 400px;
+  width: 370px;
 }
 
 .line2{
   display: inline-block;
-
-  width: 400px;
+  width: 370px;
 }
 .left{
   margin-left: 20%;
+  margin-right;
 }
 .right{
   margin-right: 20%;
+  margin-left: ;
 }
 
 .slogan{
