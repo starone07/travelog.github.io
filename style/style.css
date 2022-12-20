@@ -1,10 +1,10 @@
 .log{
   background: #004D99;
-  padding-right: 100;
+  padding-right: 100%;
   position: fixed;
   width: 100px;
   top: -20px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 a{
