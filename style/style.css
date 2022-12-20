@@ -1,6 +1,6 @@
 .header { 
   position: fixed;
-  //background: #004D99;
+  background: #004D99;
   margin-top: -20;
   padding-right: 100;
 }
@@ -43,7 +43,9 @@ h3{
     padding-bottom: 0;
     margin-bottom: 0;
 }
-
+.right{
+  margin-left: 2px;
+}
 .container {
   position: relative;
   width: 100px;
